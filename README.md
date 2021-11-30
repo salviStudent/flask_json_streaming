@@ -21,4 +21,4 @@ Finally test the server with th following command.
 pipenv run python3 test_json_streaming.py
 ```
 ## Notes
-The generator that reads the file also sleeps for half a milisecond, this is just to lower cpu usage and is not advised. 
+The generator that reads the file also sleeps for half a milisecond, this is just to lower cpu usage and is not advised for something like production. 
